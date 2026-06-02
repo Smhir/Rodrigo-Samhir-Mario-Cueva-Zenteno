@@ -373,6 +373,13 @@ bgm.addEventListener("ended", () => {
     bgm.src = canciones[indice];
     bgm.play();
 });
+document.addEventListener("visibilitychange", () => {
+    if (document.hidden) {
+        bgm.pause();
+    } else {
+        bgm.play();
+    }
+});
 </script>
 
 <script src="script.js"></script>
