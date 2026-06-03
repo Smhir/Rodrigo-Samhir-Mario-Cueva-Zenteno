@@ -351,7 +351,7 @@ body{
 .redes{
     grid-column:1;
     grid-row:2;
-    margin-top:-830px;
+    margin-top:-860px;
 }
 
 .conocimientos{
@@ -369,7 +369,7 @@ body{
 .steamfriends{
     grid-column:1;
     grid-row:3;
-    margin-top:-650px;
+    margin-top:-620px;
 }
 
 .juegos{
